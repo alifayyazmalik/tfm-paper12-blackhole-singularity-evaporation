@@ -1,0 +1,4 @@
+# Mock EHT data for M87* (shadow radius in μas)
+telescope,observed_radius,uncertainty
+EHT_2017,25.0,2.5
+EHT_2023,24.8,1.2
