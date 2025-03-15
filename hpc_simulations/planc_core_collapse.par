@@ -1,0 +1,20 @@
+# Einstein Toolkit parameter file for TFM BH collapse
+ActiveThorns = {"McLachlan", "GRHydro", "Carpet"}
+
+TFM_params = {
+    "lambda": 1.2e-5,
+    "beta": 14.8,  # kpc
+    "initial_mass": 10.0  # Solar masses
+}
+
+Grid = {
+    "type": "Carpet",
+    "num_boxes": 3,
+    "resolution": [512, 512, 512],
+    "boundary_conditions": "absorbing"
+}
+
+Output = {
+    "format": "hdf5",
+    "dir": "data/collapse_snapshots"
+}
